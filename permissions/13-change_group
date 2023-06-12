@@ -1,2 +1,2 @@
 #!/bin/bash
-chgrp --reference=/root/school hello
+chgrp school hello

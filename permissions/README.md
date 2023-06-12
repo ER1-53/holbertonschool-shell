@@ -17,3 +17,5 @@ u user g groups o other
 ugo+rwx / ug-wx
 #copy of permissions
 chmod --reference=[fichier_de_ref] [fichier qui copie]
+#Autorisation sur les dossiers et sous dossier
+chmod -R [autorisation avec pour executer X] [répertoire]
